@@ -5,10 +5,10 @@ order matters more than the exact days.
 
 ## Phase 0 — Setup (Day 1)
 
-- [ ] Both: install Python (or Node), VS Code, Git
-- [ ] Both: create GitHub repo, add `.gitignore` and `README.md`
-- [ ] Both: agree on language (Python `socket` vs Node `net`)
-- [ ] Split roles: **Member 1 → server**, **Member 2 → client**
+- [x] Both: install Python (or Node), VS Code, Git
+- [x] Both: create GitHub repo, add `.gitignore` and `README.md`
+- [x] Both: agree on language (Python `socket` vs Node `net`)
+- [x] Split roles: **jewelry → server**, **joshua → client**
 - [ ] Draw the protocol on paper/Excalidraw: what commands exist
       (`JOIN`, `MSG`, `LEAVE`, `SETINFO`) and what each one carries
 
