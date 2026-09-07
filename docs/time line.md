@@ -16,10 +16,10 @@ order matters more than the exact days.
 
 Goal: one server, one client, can send plain text back and forth.
 
-- [ ] Member 1: server that listens on a port and accepts one connection
-- [ ] Member 2: client that connects and sends a hardcoded message
-- [ ] Both: confirm you can see the message printed on the other side
-- [ ] Milestone check: can you explain what `bind()`, `listen()`, `accept()`,
+- [x] Member 1: server that listens on a port and accepts one connection
+- [x] Member 2: client that connects and sends a hardcoded message
+- [x] Both: confirm you can see the message printed on the other side
+- [x] Milestone check: can you explain what `bind()`, `listen()`, `accept()`,
       and `connect()` each do? If not, pause and read up before continuing.
 
 ## Phase 2 — Multiple clients (Day 5–8)
