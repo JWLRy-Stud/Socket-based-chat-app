@@ -25,7 +25,42 @@ client_socket, client_address = serversocket.accept()
 print("client connected: ", client_address)
 
 
-# tapos na yung sa client (for now)
+
+# marereceived ng server ung [data/input] tas nilagay natin sa "data" var sa byte form (1024)
+data = client_socket.recv(1024)
+
+# data na sa byte form ddecode sya tas nilagay sa message var
+message = data.decode()
+
+print("client: ", message)
+
+
+
+#ngayun mag message naman tayo server to client
+messageserver = "hello"
+client_socket.send(messageserver.encode())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 '''
 PROBLEM
